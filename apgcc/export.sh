@@ -1,0 +1,1 @@
+python main.py -e -c ./configs/SHHA_export.yml

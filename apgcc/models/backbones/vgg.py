@@ -22,8 +22,8 @@ model_urls = {
 }
 
 model_paths = {
-    'vgg16_bn': '/mnt/191/c/torch/vgg16/vgg16_bn-6c64b313.pth',
-    'vgg16': '/mnt/191/c/torch/vgg16/vgg16-397923af.pth',
+    'vgg16_bn': './outputs/vgg16_bn-6c64b313.pth',
+    'vgg16': './outputs/vgg16-397923af.pth',
 }
 
 class VGG(nn.Module):

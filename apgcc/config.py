@@ -108,6 +108,12 @@ _C.TEST = edict()
 _C.TEST.THRESHOLD = 0.5
 _C.TEST.WEIGHT = ""
 
+# -----------------------------------------------------------------------------
+# EXPORT
+# -----------------------------------------------------------------------------
+_C.EXPORT = edict()
+_C.EXPORT.WEIGHT = ""
+
 ################ modules ################
 def cfg_merge_a2b(a, b):
     if type(a) is not edict and type(a) is not dict:
